@@ -102,7 +102,7 @@ $(MBA_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 ALL_DEFAULT_INSTALLED_MODULES += $(MBA_SYMLINKS)
 
 MC_V2_IMAGES := \
-    mc_v2.b00 mc_v2.b02 mc_v2.b02 mc_v2.b03 mc_v2.mdt
+    mc_v2.b00 mc_v2.b02 mc_v2.b03 mc_v2.mdt
 
 MC_V2_SYMLINKS := $(addprefix $(TARGET_OUT_ETC)/firmware/,$(MC_V2_IMAGES))
 $(MC_V2_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
