@@ -23,7 +23,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.ptor.enable=true \
     persist.metadata_dynfps.disable=true \
     ro.opengles.version=196608 \
-    ro.sf.lcd_density=560
+    ro.sf.lcd_density=560 \
+    persist.sys.strictmode.disable=true
 
 # HWUI
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -62,3 +63,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.qualcomm.sns.daemon=e \
     debug.qualcomm.sns.hal=e \
     debug.qualcomm.sns.libsensor1=e
+
+# Telephony
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.telephony.call_ring.delay=0 \
+    ring.delay=0
+
+# USB
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp,adb \
+    sys.usb.config=mtp,adb \
+    ro.adb.secure=0
