@@ -815,8 +815,8 @@
         <ctl name="SLIM RX1 MUX" value="AIF1_PB" />
         <ctl name="SLIM_0_RX Channels" value="One" />
         <ctl name="RX3 MIX1 INP1" value="RX1" />
-        <ctl name="RX3 Digital Volume" value="60" />
-        <ctl name="RX4 Digital Volume" value="60" />
+        <ctl name="RX3 Digital Volume" value="66" />
+        <ctl name="RX4 Digital Volume" value="66" />
         <ctl name="RDAC5 MUX" value="DEM3_INV" />
         <ctl name="LINEOUT1 Volume" value="16" />
         <ctl name="LINEOUT3 Volume" value="16" />
@@ -988,8 +988,8 @@
     <!-- CM: voice-call OUT speaker -->
     <path name="voice-speaker">
         <path name="speaker" />
-        <ctl name="RX3 Digital Volume" value="60" />
-        <ctl name="RX4 Digital Volume" value="60" />
+        <ctl name="RX3 Digital Volume" value="66" />
+        <ctl name="RX4 Digital Volume" value="66" />
         <ctl name="RDAC5 MUX" value="DEM3_INV" />
         <ctl name="LINEOUT1 Volume" value="20" />
         <ctl name="LINEOUT3 Volume" value="20" />
@@ -1051,6 +1051,7 @@
         <ctl name="LINEOUT3 Volume" value="16" />
         <ctl name="RX3 HPF cut off" value="MIN_3DB_150Hz" />
         <ctl name="SPK Amp Volume" value="3" />
+        <ctl name="SPK Amp CLK" value="On" />
     </path>
 
     <path name="usb-headphones">
