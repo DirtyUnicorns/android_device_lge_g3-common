@@ -79,11 +79,10 @@ ifeq ($(HOST_OS),linux)
   ifeq ($(TARGET_BUILD_VARIANT),user)
     ifeq ($(WITH_DEXPREOPT),)
       WITH_DEXPREOPT := true
-      DONT_DEXPREOPT_PREBUILTS := true
     endif
   endif
 endif
-WITH_DEXPREOPT_BOOT_IMG_ONLY := true
+DONT_DEXPREOPT_PREBUILTS := true
 
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
