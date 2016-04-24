@@ -11,7 +11,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-    camera2.portability.force_api=1
+    camera2.portability.force_api=2
+    persist.camera.HAL3.enabled=1
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
