@@ -151,7 +151,6 @@ done
 PRODUCT_PACKAGES += \\
     TimeService \\
     qcrilmsgtunnel \\
-    shutdownlistener \\
     qcnvitems \\
     qcrilhook \\
     libHevcSwDecoder \\
