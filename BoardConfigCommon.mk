@@ -118,6 +118,9 @@ BOARD_RIL_CLASS += ../../../device/lge/g3-common/ril
 
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
+TARGET_USES_QCOM_BSP := true
+TARGET_COMPILE_WITH_MSM_KERNEL := true
+TARGET_USES_AOSP := false
 
 # Recovery
 BOARD_SUPPRESS_EMMC_WIPE := true
